@@ -1,0 +1,66 @@
+*{ box-sizing:border-box;
+margin: 0;padding: 0; }
+ .navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+  text-shadow: skyblue;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+.container {
+  position: relative;
+  max-width: 1000px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 90%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.course-content{
+	text-align: center;
+	
+}
+.contact-info{
+  text-align: center;
+  
+}
+
+.footer{
+   text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+.contact{
+  text-align: center;
+   background-color: lightgrey;
+  width: 300px;
+  border: opx solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.custom-nav.

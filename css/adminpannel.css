@@ -1,0 +1,37 @@
+/* style.css */
+
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+	justify-content: center;
+	align-items: center;
+}
+
+/* Form */
+
+.form-input{
+	max-width: 400px;
+}
+
+/* Styling HTML Table */
+
+table{
+	border-collapse: collapse;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: auto;
+}
+th,td{
+	border: 1px solid #dfdede;
+	padding: 8px 25px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: grey;
+}
+th{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+td{ font-size: 1.2rem; }
